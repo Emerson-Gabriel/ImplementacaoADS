@@ -1,0 +1,10 @@
+<p>
+  filho works!
+</p>
+<ul>
+  <li *ngFor="let f of recebeFamilia">
+    {{f.nome}} {{f.sobreNome}}
+  </li>
+</ul>
+
+<button (click)= "feedback()" > enviar para o pai </button>
